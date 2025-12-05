@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Khaoula Ait Mbarek - Étudiante Informatique</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="cv-wrapper container my-5">
+    <div class="cv-card shadow-lg p-0">
+        <div class="row g-0">
+
+            <div class="col-lg-5 left-col p-4 p-md-5 position-relative">
+                <div class="wave-shape"></div>
+                <div class="content-overlay">
+                    <div class="cv-photo-container mb-4">
+                        <img src="images/photo.jpg" class="img-fluid rounded-circle" alt="Photo de profil Khaoula Ait Mbarek">
+                    </div>
+
+                    <div class="contact-info mb-5">
+                        <p><i class="fas fa-phone-alt me-2"></i> 0700199913</p>
+                        <p><i class="fas fa-envelope me-2"></i> aitmbarekkhaoula1@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt me-2"></i> Marrakech, Maroc
+                        </p>
+                    </div>
+                    
+                    <div class="section mb-5">
+                        <h3 class="section-title">Compétences</h3>
+                        <ul class="list-unstyled skills-list">
+                            <li>. Programmation en C, C++, Java et Python</li>
+                            <li>. Développement Web : HTML, CSS, JavaScript, Bootstrap</li>
+                            <li>. Gestion de bases de données MySQL</li>
+                            <li>. Travail en équipe et gestion de projets</li>
+                        </ul>
+                    </div>
+
+                    <div class="section mb-5">
+                        <h3 class="section-title">Langues</h3>
+                        <div class="language-item mb-2">
+                            <span class="language-name">Français</span>
+                            <div class="rating">
+                                <i class="fas fa-circle active"></i>
+                                <i class="fas fa-circle active"></i>
+                                <i class="fas fa-circle active"></i>
+                                <i class="fas fa-circle active"></i>
+                                <i class="fas fa-circle"></i>
+                            </div>
+                        </div>
+                        <div class="language-item mb-2">
+                            <span class="language-name">Anglais</span>
+                            <div class="rating">
+                                <i class="fas fa-circle active"></i>
+                                <i class="fas fa-circle active"></i>
+                                <i class="fas fa-circle active"></i>
+                                <i class="fas fa-circle"></i>
+                                <i class="fas fa-circle"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section mt-5">
+                        <h3 class="section-title">Références</h3>
+                        <p class="small">Disponibles sur demande auprès de vos enseignants ou encadrants de stage.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7 right-col p-4 p-md-5">
+                <div class="d-flex justify-content-between align-items-start mb-4">
+                    <div>
+                        <h1 class="display-4 fw-bold">Khaoula <span class="text-primary">Ait</span> Mbarek</h1>
+                        <h2 class="text-secondary mb-3">Étudiante Informatique</h2>
+                    </div>
+                    <button class="btn btn-dark btn-sm" id="darkModeToggle">
+                        <i class="fas fa-moon"></i> Mode Sombre
+                    </button>
+                </div>
+
+                <ul class="nav nav-tabs mb-3" id="cvTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="profil-tab" data-bs-toggle="tab" data-bs-target="#profil" type="button" role="tab">Profil</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="experience-tab" data-bs-toggle="tab" data-bs-target="#experience" type="button" role="tab">Expériences</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="formation-tab" data-bs-toggle="tab" data-bs-target="#formation" type="button" role="tab">Formations</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="interets-tab" data-bs-toggle="tab" data-bs-target="#interets" type="button" role="tab">Centres d’intérêt</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="cvTabContent">
+                    <div class="tab-pane fade show active" id="profil" role="tabpanel">
+                        <p>Étudiante en 2ème année Informatique Appliquée, motivée et passionnée par le développement logiciel et le web. Je souhaite mettre en pratique mes compétences techniques dans des projets concrets.</p>
+                        <button class="btn btn-link p-0 text-decoration-none" data-bs-toggle="collapse" data-bs-target="#profilDetails" aria-expanded="false">
+                            <small>Voir la suite <i class="fas fa-chevron-down"></i></small>
+                        </button>
+                        <div class="collapse" id="profilDetails">
+                            <p class="small mt-2">J’aime apprendre de nouvelles technologies, collaborer avec d’autres étudiants et relever des défis liés à la programmation et à la conception de sites web ou d’applications.</p>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="experience" role="tabpanel">
+                        <div class="experience-item mb-4">
+                            <h4 class="job-title">Projet Développement Web</h4>
+                            <p class="company-name text-muted">Université | 2025</p>
+                            <ul class="job-duties list-unstyled">
+                                <li>. Création d’un site web interactif en HTML, CSS et JavaScript.</li>
+                                <li>. Mise en place de la navigation et sections dynamiques avec Bootstrap.</li>
+                                <li> Développement des mini jeu en c++ avec SDL2</li>
+                                <li> </li>
+                            </ul>
+                        </div>
+                        <div class="experience-item mb-4">
+                            <h4 class="job-title">Mini-Projet C++</h4>
+                            <p class="company-name text-muted">Université | 2024</p>
+                            <ul class="job-duties list-unstyled">
+                                <li>. Développement d’un logiciel simple pour la gestion de bibliothèque.</li>
+                                <li>. Gestion des emprunts, retours et recherche de livres.</li>
+                            </ul>
+                        </div>
+                        <div class="project-item mb-3">
+                            <h4 class="job-title">Application To-Do List</h4>
+                            <p class="company-name text-muted">2024</p>
+                            <p class="small">Développement d’une application web pour organiser des tâches, avec possibilité d’ajouter, supprimer et marquer des tâches comme terminées.</p>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="formation" role="tabpanel">
+                        <div class="formation-item">
+                            <h4 class="degree">Baccalauréat Sciences physique</h4>
+                            <p class="school text-muted">2023</p>
+                        </div>
+                        <div class="formation-item">
+                            <h4 class="degree">2ème Année Informatique Appliquée</h4>
+                            <p class="school text-muted">FSSM | 2025</p>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="interets" role="tabpanel">
+                        <div class="d-flex flex-wrap">
+                            <span class="badge text-bg-secondary me-2 mb-2"><i class="fas fa-code me-1"></i> Programmation</span>
+                            <span class="badge text-bg-secondary me-2 mb-2"><i class="fas fa-laptop-code me-1"></i> Développement Web</span>
+                            <span class="badge text-bg-secondary me-2 mb-2"><i class="fas fa-robot me-1"></i> IA / Robotique</span>
+                            <span class="badge text-bg-secondary me-2 mb-2"><i class="fas fa-gamepad me-1"></i> Jeux vidéo</span>
+                            <span class="badge text-bg-secondary me-2 mb-2"><i class="fas fa-book me-1"></i> Lecture / Documentation</span>
+                            <span class="badge text-bg-secondary me-2 mb-2"><i class="fas fa-plane me-1"></i> Voyages</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
+
